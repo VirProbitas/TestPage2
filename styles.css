@@ -2,12 +2,21 @@
 .grid-container {
 	display: grid;  
 	margin-top: 5px;  
+<<<<<<< HEAD
 	padding: 10px; 
 	justify-content: center; 
 	background: white;  
 	grid-template: 'header header' 130px   
                    'nav main' 75vh
                    'footer footer' 30px / 300px 700px; 
+=======
+	padding: 10px;  
+	background: white;  
+	grid-template: 'header header' 130px 
+                   'nav main' 300px  
+                   'nav main' 300px 
+                   'footer footer' 30px / 300px 1fr; 
+>>>>>>> d467789b166521aade6186fb948b15dd92ff8ffc
 }
 .grid-container > div { 
 	background: White;  
@@ -35,7 +44,11 @@
 	background: Silver !important;  
         margin-top: 10px;
         margin-right: 10px;
+<<<<<<< HEAD
         width: 300px;
+=======
+        width:300px;
+>>>>>>> d467789b166521aade6186fb948b15dd92ff8ffc
 }
 
 h1 {
@@ -74,6 +87,10 @@ h2 {
 
 .content {
 	float:initial;
+<<<<<<< HEAD
+=======
+	line-height: 120 %;
+>>>>>>> d467789b166521aade6186fb948b15dd92ff8ffc
 }
 
 .nav-b {
@@ -81,8 +98,13 @@ h2 {
 	width:240px;
 	height:200px;
 	background-color:Black;
+<<<<<<< HEAD
 	margin-left: auto;
     margin-right: auto;
+=======
+	margin-left:10px;
+	margin-right:10px;
+>>>>>>> d467789b166521aade6186fb948b15dd92ff8ffc
 }
 
 .list-item {
