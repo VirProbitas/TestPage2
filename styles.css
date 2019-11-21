@@ -2,21 +2,12 @@
 .grid-container {
 	display: grid;  
 	margin-top: 5px;  
-<<<<<<< HEAD
 	padding: 10px; 
 	justify-content: center; 
 	background: white;  
 	grid-template: 'header header' 130px   
                    'nav main' 75vh
                    'footer footer' 30px / 300px 700px; 
-=======
-	padding: 10px;  
-	background: white;  
-	grid-template: 'header header' 130px 
-                   'nav main' 300px  
-                   'nav main' 300px 
-                   'footer footer' 30px / 300px 1fr; 
->>>>>>> d467789b166521aade6186fb948b15dd92ff8ffc
 }
 .grid-container > div { 
 	background: White;  
@@ -32,7 +23,7 @@
 .item-b {
   grid-area: main;  
 	background: White !important;  
-        margin-left:10px;
+        margin-left: 10px;
         margin-top: 10px;
 }
 .item-c {
@@ -44,16 +35,12 @@
 	background: Silver !important;  
         margin-top: 10px;
         margin-right: 10px;
-<<<<<<< HEAD
         width: 300px;
-=======
-        width:300px;
->>>>>>> d467789b166521aade6186fb948b15dd92ff8ffc
 }
 
 h1 {
-    font-weight:10;
-	padding-top:0px;
+    font-weight: 10;
+	padding-top: 0px;
 	line-height: 0;
 }
 
@@ -63,53 +50,44 @@ h2 {
 
 .brand {
 	background-color:White;
-	   margin-left:10px;
-	   margin-right:10px;
-	   margin-top:10px;
+	   margin-left: 10px;
+	   margin-right: 10px;
+	   margin-top: 10px;
 } 
 
 .explanation {
 	line-height: 0;
-	   padding-top:10px;
-	   padding-bottom:30px;
+	   padding-top: 10px;
+	   padding-bottom: 30px;
 }
 
 .nav-a {
 	background-color:Black;
-	height:30px;
-	line-height:30px;
+	height: 30px;
+	line-height: 30px;
 }
 
 .nav-list {
     text-decoration: none;
-	margin-left:10px;
+	margin-left: 10px;
 }
 
 .content {
 	float:initial;
-<<<<<<< HEAD
-=======
-	line-height: 120 %;
->>>>>>> d467789b166521aade6186fb948b15dd92ff8ffc
 }
 
 .nav-b {
 	float:initial;
-	width:240px;
-	height:200px;
+	width: 240px;
+	height: 200px;
 	background-color:Black;
-<<<<<<< HEAD
 	margin-left: auto;
     margin-right: auto;
-=======
-	margin-left:10px;
-	margin-right:10px;
->>>>>>> d467789b166521aade6186fb948b15dd92ff8ffc
 }
 
 .list-item {
-	padding-top:12px;
-	padding-left:13px;
+	padding-top: 12px;
+	padding-left: 13px;
 	text-decoration: none;
 }
 
