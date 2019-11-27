@@ -18,7 +18,7 @@
 .item-a {
 	grid-area: header;  
 	background: Silver !important;  
-        border: 1px solid #000;        
+		border: 1px solid #000;        
 }
 .item-b {
   grid-area: main;  
@@ -65,12 +65,28 @@ h2 {
 	background-color:Black;
 	height: 30px;
 	line-height: 30px;
+	cursor: pointer;
 }
 
 .nav-list {
     text-decoration: none;
 	margin-left: 10px;
+	padding-left: 6px;
+	padding-right: 6px;
+	color: white;
+	cursor: pointer;
 }
+
+.nav-list:hover {
+    color: black; 
+	background: white;
+	text-decoration: none;
+	text-decoration: underline;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 7px;
+   }
 
 .content {
 	float:initial;
@@ -78,19 +94,33 @@ h2 {
 
 .nav-b {
 	float:initial;
-	width: 240px;
+	width: 281px;
 	height: 200px;
-	background-color:Black;
+	background-color:black;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	cursor: pointer;
+	padding: 0px;
+	list-style-type: none;
 }
 
 .list-item {
-	padding-top: 12px;
-	padding-left: 13px;
+	padding-top: 12px; 
+	padding-left: 0px;
+	padding-right: 0px;
 	text-decoration: none;
 }
 
 .list-color {
-    text-decoration: none;
+	text-decoration: none;
+	color: white;
+	padding: 6px 50px 6px 51px;
 }
+
+.list-color:hover {
+    color: black; 
+	background: white;
+	text-decoration: none;
+	text-decoration: underline;
+	padding: 6px 50px 6px 52px;
+   }
