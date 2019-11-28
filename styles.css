@@ -90,7 +90,8 @@
 	padding-right: 6px; 
 	padding-top: 6px; 
 	padding-bottom: 7px; /* can bee simplified to "padding: 6px 6px 7px" */ 
-	} 
+	}
+
 	
 	.content { 
 	float: initial; 
