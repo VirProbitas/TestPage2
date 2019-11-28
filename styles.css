@@ -1,128 +1,129 @@
- 
-.grid-container {
-	display: grid;  
-	margin-top: 5px;  
+.grid-container { 
+	display: grid; 
+	margin-top: 5px; 
 	padding: 10px; 
 	justify-content: center; 
-	background: white;  
-	grid-template: 'header header' 130px   
-                   'nav main' 75vh
-                   'footer footer' 30px / 300px 700px; 
-}
-.grid-container > div { 
-	background: White;  
-        /* border: 1px solid #000; */  
-	text-align: left;  
-        font-family: Arial
-} 
-.item-a {
-	grid-area: header;  
-	background: Silver !important;  
-		border: 1px solid #000;        
-}
-.item-b {
-  grid-area: main;  
-	background: White !important;  
-        margin-left: 10px;
-        margin-top: 10px;
-}
-.item-c {
-  grid-area: footer;  
-	background: Black !important;  
-}
-.item-d {
-  grid-area: nav;  
-	background: Silver !important;  
-        margin-top: 10px;
-        margin-right: 10px;
-        width: 300px;
-}
-
-h1 {
-    font-weight: 10;
-	padding-top: 0px;
-	line-height: 0;
-}
-
-h2 {
-	line-height: 0;
-}
-
-.brand {
-	background-color:White;
-	   margin-left: 10px;
-	   margin-right: 10px;
-	   margin-top: 10px;
-} 
-
-.explanation {
-	line-height: 0;
-	   padding-top: 10px;
-	   padding-bottom: 30px;
-}
-
-.nav-a {
-	background-color:Black;
-	height: 30px;
-	line-height: 30px;
-	cursor: pointer;
-}
-
-.nav-list {
-    text-decoration: none;
-	margin-left: 10px;
-	padding-left: 6px;
-	padding-right: 6px;
-	color: white;
-	cursor: pointer;
-}
-
-.nav-list:hover {
-    color: black; 
-	background: white;
-	text-decoration: none;
-	text-decoration: underline;
-	padding-left: 6px;
-	padding-right: 6px;
-	padding-top: 6px;
-	padding-bottom: 7px;
-   }
-
-.content {
-	float:initial;
-}
-
-.nav-b {
-	float:initial;
-	width: 281px;
-	height: 200px;
-	background-color:black;
-	margin-left: auto;
-	margin-right: auto;
-	cursor: pointer;
-	padding: 0px;
-	list-style-type: none;
-}
-
-.list-item {
+	background: white; 
+	grid-template: 'header header' 130px 
+	'nav main' 75vh 
+	'footer footer' 30px / 300px 700px; 
+	} 
+	
+	.grid-container > div { 
+	background: White; 
+	/* border: 1px solid #000; */ /* - string should be deleted if not used */ 
+	text-align: left; 
+	font-family: Arial, sans-serif; 
+	} 
+	
+	.item-a { 
+	grid-area: header; 
+	background: Silver !important; 
+	border: 1px solid #000; 
+	} 
+	
+	.item-b { 
+	grid-area: main; 
+	background: White !important; 
+	margin-left: 10px; 
+	margin-top: 10px; 
+	} 
+	
+	.item-c { 
+	grid-area: footer; 
+	background: Black !important; 
+	} 
+	
+	.item-d { 
+	grid-area: nav; 
+	background: Silver !important; 
+	margin-top: 10px; 
+	margin-right: 10px; 
+	width: 300px; 
+	} 
+	
+	h1 { 
+	font-weight: 100; /* 10 is wrong */ 
+	padding-top: 0; /* when 0 px is not needed */ 
+	line-height: 0; 
+	} 
+	
+	h2 { 
+	line-height: 0; 
+	} 
+	
+	.brand { 
+	background-color: White; 
+	margin-left: 10px; 
+	margin-right: 10px; 
+	margin-top: 10px; 
+	} 
+	
+	.explanation { 
+	line-height: 0; 
+	padding-top: 10px; 
+	padding-bottom: 30px; 
+	} 
+	
+	.nav-a { 
+	background-color: Black; 
+	height: 30px; 
+	line-height: 30px; 
+	cursor: pointer; 
+	} 
+	
+	.nav-list { 
+	text-decoration: none; 
+	margin-left: 10px; 
+	padding-left: 6px; 
+	padding-right: 6px; 
+	color: white; 
+	cursor: pointer; 
+	} 
+	
+	.nav-list:hover { 
+	color: black; 
+	background: white; 
+	text-decoration: none; 
+	text-decoration: underline; /* none or underline? you should choose one */ 
+	padding-left: 6px; 
+	padding-right: 6px; 
+	padding-top: 6px; 
+	padding-bottom: 7px; /* can bee simplified to "padding: 6px 6px 7px" */ 
+	} 
+	
+	.content { 
+	float: initial; 
+	} 
+	
+	.nav-b { 
+	float: initial; 
+	width: 281px; 
+	height: 200px; 
+	background-color: black; 
+	margin-left: auto; 
+	margin-right: auto; 
+	cursor: pointer; 
+	padding: 0; 
+	list-style-type: none; 
+	} 
+	
+	.list-item { 
 	padding-top: 12px; 
-	padding-left: 0px;
-	padding-right: 0px;
-	text-decoration: none;
-}
-
-.list-color {
-	text-decoration: none;
-	color: white;
-	padding: 6px 50px 6px 51px;
-}
-
-.list-color:hover {
-    color: black; 
-	background: white;
-	text-decoration: none;
-	text-decoration: underline;
-	padding: 6px 50px 6px 52px;
-   }
-
-   
+	padding-left: 0;  
+	padding-right: 0;  
+	text-decoration: none; 
+	} 
+	
+	.list-color { 
+	text-decoration: none; 
+	color: white; 
+	padding: 6px 50px 6px 51px; 
+	} 
+	
+	.list-color:hover { 
+	color: black; 
+	background: white;  
+	text-decoration: underline; 
+	padding: 6px 50px 6px 52px; 
+	}
