@@ -11,7 +11,6 @@
 	
 	.grid-container > div { 
 	background: White; 
-	/* border: 1px solid #000; */ /* - string should be deleted if not used */ 
 	text-align: left; 
 	font-family: Arial, sans-serif; 
 	} 
@@ -43,8 +42,8 @@
 	} 
 	
 	h1 { 
-	font-weight: 100; /* 10 is wrong */ 
-	padding-top: 0; /* when 0 px is not needed */ 
+	font-weight: 100;  
+	padding-top: 0;  
 	line-height: 0; 
 	} 
 	
@@ -84,12 +83,8 @@
 	.nav-list:hover { 
 	color: black; 
 	background: white; 
-	text-decoration: none; 
-	text-decoration: underline; /* none or underline? you should choose one */ 
-	padding-left: 6px; 
-	padding-right: 6px; 
-	padding-top: 6px; 
-	padding-bottom: 7px; /* can bee simplified to "padding: 6px 6px 7px" */ 
+	text-decoration: underline; 
+	padding:6px 6px 7px 6px;  
 	}
 
 	
